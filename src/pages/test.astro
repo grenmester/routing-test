@@ -1,0 +1,16 @@
+---
+import "../styles/global.css";
+import TestAstroComponent from '../components/TestAstroComponent.astro';
+import TestJSXComponent from "../components/TestJSXComponent.jsx";
+---
+
+<html lang="en">
+  <head>
+    <title>Test Page</title>
+  </head>
+  <body class="p-8">
+    <h1 class="text-2xl font-bold mb-4">English Test Page</h1>
+    <TestAstroComponent message="This is a test message!" />
+    <TestJSXComponent message="This is a React component using useState!" client:visible />
+  </body>
+</html>
