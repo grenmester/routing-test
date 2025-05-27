@@ -5,7 +5,7 @@
       "has": [
         {
           "type": "host",
-          "value": "test.routing-test.vercel.app"
+          "value": "test.routing-test-beta.vercel.app"
         }
       ],
       "destination": "/test",
