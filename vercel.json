@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "test.routing-test.vercel.app"
+        }
+      ],
+      "destination": "/test",
+      "statusCode": 308
+    }
+  ]
+}
